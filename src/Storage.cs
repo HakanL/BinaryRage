@@ -3,7 +3,9 @@ using System.Linq;
 using System.IO;
 using System.Threading;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
+[assembly: InternalsVisibleTo("BinaryRage.UnitTests")]
 namespace BinaryRage
 {
 	internal static class Storage

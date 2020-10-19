@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryRage", "BinaryRage.csproj", "{191D893F-7087-4E59-9AEE-5FEF4172E3FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryRage", "src\BinaryRage.csproj", "{191D893F-7087-4E59-9AEE-5FEF4172E3FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "tests\UnitTests.csproj", "{BFD737EB-0084-4B68-99A5-92B4CC33AD07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{191D893F-7087-4E59-9AEE-5FEF4172E3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{191D893F-7087-4E59-9AEE-5FEF4172E3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{191D893F-7087-4E59-9AEE-5FEF4172E3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD737EB-0084-4B68-99A5-92B4CC33AD07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD737EB-0084-4B68-99A5-92B4CC33AD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD737EB-0084-4B68-99A5-92B4CC33AD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD737EB-0084-4B68-99A5-92B4CC33AD07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A96C0A5-C236-4485-B25F-A18458C9294A}
 	EndGlobalSection
 EndGlobal
