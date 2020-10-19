@@ -15,10 +15,13 @@
     <Copyright>2013, Michael Christensen</Copyright>
     <Version>1.5.0</Version>
     <Authors>Michael Christensen</Authors>
-    <PackageId>BinaryRage</PackageId>
-    <PackageLicenseUrl>https://github.com/mchidk/BinaryRage</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/mchidk/BinaryRage</PackageProjectUrl>
-    <PackageTags>NOSQL cache KeyValueStore ObjectSerialization ObjectSerializer database fast</PackageTags>
+    <PackageId>Haukcode.BinaryRage</PackageId>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/HakanL/BinaryRage</PackageProjectUrl>
+    <PackageTags>NoSQL cache KeyValueStore ObjectSerialization ObjectSerializer database fast</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>1.5.0 Restructured the code and made it compatible with .NET Standard 2.0</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
     <None Remove=".gitattributes" />
